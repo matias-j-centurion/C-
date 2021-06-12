@@ -59,16 +59,17 @@
 
 
 
-// int[] arrayCeroAlDiez = new int[10] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
-
-// foreach (int numero4 in arrayCeroAlDiez)
+// int[] arrayCeroAlDiez = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+// int Total = arrayCeroAlDiez[0];
+// for (int i = 1; i !=arrayCeroAlDiez.Length; i++)
 // {
-
-//     Console.WriteLine(numero4 * numero4);
+//     Total *= arrayCeroAlDiez[i]; 
 // }
 
+// Console.WriteLine(Total);
 
 //METODOS:
+
 
 // int numero4 = int.Parse(Console.ReadLine());
 // int numero5 = int.Parse(Console.ReadLine());
@@ -83,6 +84,7 @@
 // }
 
 
+
 // string palabra1 = (Console.ReadLine());
 // string palabra2 = (Console.ReadLine());
 // string palabraConcatenada = concatenar (palabra1,palabra2);
@@ -94,22 +96,24 @@
 // }
 
 
-float cantidad = 12;
-float precio = 100;
-float retornar = cantidadYprecio(cantidad, precio);
-float cantidadYprecio(float cantidad, float precio)
-{
-    return cantidad * precio;
 
-}
-if (retornar > 1000)
-{
-    Console.WriteLine($"El precio con descuento es de {retornar * 0.9}");
-     }
-else
-{
-    Console.WriteLine($"El precio final es {retornar}");
-}
+// float cantidad = 12;
+// float precio = 100;
+// float retornar = cantidadYprecio(cantidad, precio);
+// float cantidadYprecio(float cantidad, float precio)
+// {
+//     return cantidad * precio;
+
+// }
+// if (retornar > 1000)
+// {
+//     Console.WriteLine($"El precio con descuento es de {retornar * 0.9}");
+//      }
+// else
+// {
+//     Console.WriteLine($"El precio final es {retornar}");
+// }
+
 
 
 
@@ -120,7 +124,7 @@ else
 
 // int asteriscos = Convert.ToInt32(Console.ReadLine());
 // for (int i=0; i<=asteriscos; i++){
-//     Console.WriteLine("*");
+//     Console.Write("*");
 
 // }
 // }
